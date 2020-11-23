@@ -14,6 +14,6 @@ Package.onUse(api => {
   api.use('jquery', 'client')
   api.addFiles([
     'dist/css/bootstrap.css',
-    'dist/js/bootstrap.js'
+    'dist/js/bootstrap.bundle.js'
   ], 'client')
 })
