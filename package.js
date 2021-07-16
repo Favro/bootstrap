@@ -10,7 +10,7 @@ Package.describe({
 })
 
 Package.onUse(api => {
-  api.versionsFrom('METEOR@1.10.2')
+  api.versionsFrom('METEOR@3.4')
   api.addFiles([
     'dist/css/bootstrap.css',
     'dist/js/bootstrap.bundle.js'
